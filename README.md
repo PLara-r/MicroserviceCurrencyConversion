@@ -1,9 +1,9 @@
 # MicroserviceCurrencyConversion
 
  Cоздаем второй микросервис - сервис конвертации валют (CCS), он конвертирует заданное количество валюты
- в другую валюту, по обменному курсу, полученному с Forex сервиса (исходные данные Forex сервиса смотри в репо ForexServis). 
+ в другую валюту, по обменному курсу, полученному с Forex сервиса (исходные данные Forex сервиса смотри в репо ForexService). 
  
- запуск (CCS) MicroserviceCurrencyConversion, аналогичен Forex сервису (смотри описание ForexServis). Для тестерирования  вводим в браузере 
+ запуск (CCS) MicroserviceCurrencyConversion, аналогичен Forex сервису (смотри описание ForexService). Для тестерирования  вводим в браузере 
  http://localhost:8100/currency-converter/from/EUR/to/INR/quantity/10000
  получаем ответ в Json файле
  {
